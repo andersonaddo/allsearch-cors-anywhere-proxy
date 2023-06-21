@@ -6,8 +6,6 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
-    "test": "yarn prettier && jest --coverage ./app",
-    "push": "vpdate && git push",
     "prettier": "prettier -c ./test ./app",
     "start": "node server.js"
   },
@@ -24,6 +22,5 @@
     "prettier": "^2.7.1",
     "supertest": "^6.2.4",
     "vpdate": "^0.1.1"
-  },
-  "packageManager": "yarn@3.0.2"
+  }
 }
