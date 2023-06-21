@@ -1,0 +1,23 @@
+{
+  "name": "allsearch-cors-anywhere-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server to allow Allsearch to bypass CORS for its image requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonaddo/allsearch-cors-anywhere-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andersonaddo/allsearch-cors-anywhere-proxy/issues"
+  },
+  "homepage": "https://github.com/andersonaddo/allsearch-cors-anywhere-proxy#readme",
+  "dependencies": {
+    "cors-anywhere": "^0.4.4"
+  }
+}
