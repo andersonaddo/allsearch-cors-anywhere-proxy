@@ -1,7 +1,7 @@
-// Listen on a specific host via the HOST environment variable
-var host = process.env.HOST || 'localhost';
-// Listen on a specific port via the PORT environment variable
-var port = process.env.PORT || 8080;
+// Listen on a specific host via the HOST environment variable. Should be 0.0.0.0 for koyeb.com
+var host = process.env.HOST || '0.0.0.0';
+// Listen on a specific port via the PORT environment variable  Should be 8000 for koyeb.com
+var port = process.env.PORT || 8000;
 
 var cors_proxy = require('cors-anywhere');
 cors_proxy.createServer({
